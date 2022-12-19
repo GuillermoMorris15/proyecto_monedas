@@ -23,7 +23,7 @@ const TableCoins = ({ coins, search }) => {
         {filteredCoins.map((coin, index) => (
           <CoinRow key={coin.id} coin={coin} index={index + 1} />
         ))}
-      </tbody>
+      </tbody>  
     </table>
   );
 };
